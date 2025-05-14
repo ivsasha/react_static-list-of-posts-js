@@ -9,7 +9,7 @@ export const CommentList = ({ comments }) => (
       comments.map(comment => (
         <CommentInfo
           key={comment.id}
-          user={comment.name}
+          name={comment.name}
           email={comment.email}
           body={comment.body}
         />
